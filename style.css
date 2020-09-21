@@ -117,4 +117,81 @@ html {
 .content__img {
     width: 48%;
 }
+
+/* home-newUser.html Styles */
+
+/* .newUserContent {
+    width: 40%;
+    margin: 4% auto ;
+    z-index: 10;
+}
+
+.newUser__contentTextPBold {
+    font-weight: 700;
+}
+
+.newUser__contentTextHeadline {
+    font-size: 4.8rem;
+    text-align: center;
+}
+
+.content.newUser {
+    flex-flow: column nowrap;
+    margin: 5% 30% 0 30%;
+}
+
+.content.newUser img{
+    position: absolute;
+    z-index: -1;
+    height: 75%; comment this out
+} */
+
+.newUser__content {
+    display: flex;
+    /* flex-flow: ; */
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.newUser__contentText {
+    width: 35%;
+    margin-top: 4%;
+}
+
+.newUser__contentTextHeadline {
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 1.3;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.newUser__contentTextDescription {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.newUser__contentTextPBold {
+    font-weight: 700;
+}
+
+.newUser__content img {
+    position: absolute;
+    z-index: -1;
+}
+
+.newUser__contentImgBubble{
+    width: 40%;
+}
+
+.newUser__contentImgExit {
+    width: 2%;
+    margin: 1.35% 0 0 17.5%;
+}
+
+.newUser__contentImgDee {
+    margin: 39% 0 0 12.5%;
+    width: 15%;
+}
 /* End Content Styles */

@@ -74,12 +74,12 @@ html {
     display: flex;
     justify-content: space-between;
     margin: 10% 10%;
+    color: #0A2738;
 }
 
 .content__text {
     display: flex;
     flex-flow: column nowrap;
-    color: #0A2738;
     width: 48%;
 }
 
@@ -119,32 +119,6 @@ html {
 }
 
 /* home-newUser.html Styles */
-
-/* .newUserContent {
-    width: 40%;
-    margin: 4% auto ;
-    z-index: 10;
-}
-
-.newUser__contentTextPBold {
-    font-weight: 700;
-}
-
-.newUser__contentTextHeadline {
-    font-size: 4.8rem;
-    text-align: center;
-}
-
-.content.newUser {
-    flex-flow: column nowrap;
-    margin: 5% 30% 0 30%;
-}
-
-.content.newUser img{
-    position: absolute;
-    z-index: -1;
-    height: 75%; comment this out
-} */
 
 .newUser__content {
     display: flex;
@@ -194,4 +168,52 @@ html {
     margin: 39% 0 0 12.5%;
     width: 15%;
 }
+
+/* signUp.html Styles */
+
+.content form label {
+    font-size: 1.8rem;
+}
+
+.content form input {
+    width: 100%;
+    margin: 1% 0 2% 0;
+    padding: 2% 0 2% 2%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #0A2738;
+}
+
+.content form input::placeholder {
+    color: #66889C;
+}
+
+.formFootnote {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 15%;
+}
+
+.content__textSignUpBtn.createAccountBtn {
+    padding: 0 28%;
+    margin: 0 3%
+}
+
+.content__img.signUpImgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpImg {
+    width: 60%;
+}
+
+.loginForm {
+    margin-bottom: 15%;
+}
+
+
 /* End Content Styles */

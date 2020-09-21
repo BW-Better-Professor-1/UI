@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Better Professor</title>
+    <title>Log In - Better Professor</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
@@ -29,15 +29,19 @@
             <a href="#" class="header__navLink header__navLinkSignUp">Sign Up</a>
         </nav>
     </header>
-    <section class="newUser__content">
-        <div class="newUser__contentText">
-            <h2 class="newUser__contentTextHeadline">Welcome to Better Professor!</h2>
-            <p class="newUser__contentTextDescription">I'm your teacher's assitant, Dee. If you ever need me, just click Help. <span class="newUser__contentTextPBold">Click Student List in the menu bar above</span> to add a student.</p>
+    <section class="content signUp">
+        <div class="content__text">
+            <form class="loginForm">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder= "Enter email"><br>
+                <label for="pw">Password</label><br>
+                <input type="password" id="pw" name="pw" placeholder="Enter password"><br>
+            </form>
+            <a href="#" class="content__textSignUpBtn createAccountBtn">Create Account</a>
         </div>
-        <!-- <img src="assets/dee-assistant-and-bubble.png" alt=""> -->
-        <img class="newUser__contentImgBubble" src="assets/welcome-pop-up-background.png" alt="">
-        <img class="newUser__contentImgExit" src="assets/exit-button.png" alt="">
-        <img class="newUser__contentImgDee" src="assets/dee-the-assistant.png" alt="">
+        <div class="content__img signUpImgDiv">
+            <img class="signUpImg" src="assets/sign-up-page-graphic.png" alt="model figure tipping over cup of pens" />
+        </div>
     </section>
 </body>
 </html>

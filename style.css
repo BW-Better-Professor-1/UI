@@ -184,6 +184,9 @@ html {
     font-size: 2.4rem;
     font-weight: 400;
     color: #0A2738;
+    border: none;
+    border:solid 1px #66889C;
+    border-radius: 10px;
 }
 
 .content form input::placeholder {
@@ -198,8 +201,8 @@ html {
 }
 
 .content__textSignUpBtn.createAccountBtn {
-    padding: 0 28%;
-    margin: 0 3%
+    margin: 0 auto;
+    width: 95%;
 }
 
 .content__img.signUpImgDiv {
@@ -344,6 +347,20 @@ html {
     .newUser__contentImgDee {
         margin: 48.75% 0 0 17%;
         width: 22%;
+    }
+
+    /* signUp  */
+    .signUpImg {
+        display: none;
+    }
+
+    .content form label {
+        font-size: 1.4rem;
+    }
+
+    .content form input {
+        font-size: 1.8rem;
+        margin-bottom: 4%;
     }
 }
 

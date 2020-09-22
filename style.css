@@ -215,6 +215,116 @@ html {
 .loginForm {
     margin-bottom: 15%;
 }
-
-
 /* End Content Styles */
+
+/* Mobile Responsiveness */
+@media (max-width: 1250px) {
+    .content__textHeadline {
+        font-size: 3.6rem;
+    }
+
+    .content__textSignUpBtn, .content__textLogInBtn {
+        font-size: 1.8rem;
+        padding: 4% 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .content {
+        flex-flow: column-reverse nowrap;
+        margin: 0;
+    }
+
+    .content__text {
+        width: 100%;
+        margin-top: 2%;
+        padding: 0 10%;
+    }
+
+    .content__textHeadline {
+        font-size: 3.6rem;
+    }
+
+    .content__textDescription {
+        font-size: 2.4rem;
+        padding-right: 10%;
+        margin-top: 4%;
+    }
+
+    .content__img {
+        width: 100%;
+        padding: 5% 10% 0 10%;
+    }
+
+    .content__text a {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header__brandLogo, .header__brandTextSlogan, .header__loginButton, .header__nav {
+        display: none;
+    }
+
+    .header__brandText {
+        margin: 5% 0;
+    }
+
+    .header__brandTextTitle {
+        font-size: 3.6rem;
+    }
+
+    .content {
+        flex-flow: column-reverse nowrap;
+        margin: 0;
+    }
+
+    .content__text {
+        width: 100%;
+        margin-top: 5%;
+        padding: 0 10%;
+    }
+
+    .content__textHeadline {
+        font-size: 2.4rem;
+    }
+
+    .content__textDescription {
+        font-size: 1.6rem;
+        padding-right: 10%;
+        margin-top: 4%;
+    }
+
+    .content__textSignUpBtn, .content__textLogInBtn {
+        font-size: 1.8rem;
+        padding: 4% 0;
+        margin-top: 10%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .header__brandTextTitle {
+        font-size: 3.0rem;
+    }
+
+    .content__text {
+        padding: 0 15% 0 10%;
+    }
+
+    .content__textDescription {
+        margin-top: 8%;
+    }
+
+    .content__img {
+        padding: 0;
+    }
+}
+

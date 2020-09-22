@@ -124,12 +124,12 @@ html {
 .newUser__content {
     display: flex;
     /* flex-flow: ; */
-    margin-top: 5%;
+    margin-top: 3%;
     justify-content: center;
 }
 
 .newUser__contentText {
-    width: 35%;
+    width: 25%;
     margin-top: 4%;
 }
 
@@ -157,17 +157,17 @@ html {
 }
 
 .newUser__contentImgBubble{
-    width: 40%;
+    width: 30%;
 }
 
 .newUser__contentImgExit {
     width: 2%;
-    margin: 1.35% 0 0 17.5%;
+    margin: 1% 0 0 12.75%;
 }
 
 .newUser__contentImgDee {
-    margin: 39% 0 0 12.5%;
-    width: 15%;
+    margin: 29.5% 0 0 10%;
+    width: 12%;
 }
 
 /* signUp.html Styles */
@@ -218,7 +218,37 @@ html {
 /* End Content Styles */
 
 /* Mobile Responsiveness */
-@media (max-width: 1250px) {
+@media (max-width: 2000px) {
+    /*  */
+    .newUser__contentText {
+        width: 25%;
+        margin-top: 4%;
+    }
+    
+    .newUser__contentTextHeadline {
+        font-size: 3.6rem;
+    }
+    
+    .newUser__contentTextDescription {
+        font-size: 2.4rem;
+    }
+
+    .newUser__contentImgBubble{
+        width: 30%;
+    }
+    
+    .newUser__contentImgExit {
+        width: 2%;
+        margin: 1% 0 0 12.75%;
+    }
+    
+    .newUser__contentImgDee {
+        margin: 29.25% 0 0 9.75%;
+        width: 12%;
+    }
+}
+
+@media (max-width: 1440px) {
     .content__textHeadline {
         font-size: 3.6rem;
     }
@@ -226,6 +256,33 @@ html {
     .content__textSignUpBtn, .content__textLogInBtn {
         font-size: 1.8rem;
         padding: 4% 0;
+    }
+    /*  */
+    .newUser__contentText {
+        width: 35%;
+        margin-top: 4%;
+    }
+    
+    .newUser__contentTextHeadline {
+        font-size: 3.6rem;
+    }
+    
+    .newUser__contentTextDescription {
+        font-size: 2.4rem;
+    }
+
+    .newUser__contentImgBubble{
+        width: 40%;
+    }
+    
+    .newUser__contentImgExit {
+        width: 2.5%;
+        margin: 1.25% 0 0 17.5%;
+    }
+    
+    .newUser__contentImgDee {
+        margin: 39% 0 0 11%;
+        width: 12%;
     }
 }
 
@@ -259,6 +316,34 @@ html {
     .content__text a {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    /*  */
+    .newUser__contentText {
+        width: 40%;
+        margin-top: 4%;
+    }
+    
+    .newUser__contentTextHeadline {
+        font-size: 3.6rem;
+    }
+    
+    .newUser__contentTextDescription {
+        font-size: 2.4rem;
+    }
+
+    .newUser__contentImgBubble{
+        width: 50%;
+    }
+    
+    .newUser__contentImgExit {
+        width: 3%;
+        margin: 1.5% 0 0 21.5%;
+    }
+    
+    .newUser__contentImgDee {
+        margin: 48.75% 0 0 17%;
+        width: 22%;
     }
 }
 
@@ -307,6 +392,76 @@ html {
         padding: 4% 0;
         margin-top: 10%;
         width: 100%;
+    }
+
+    /*  */
+    .newUser__contentText {
+        width: 45%;
+        margin-top: 4%;
+    }
+    
+    .newUser__contentTextHeadline {
+        font-size: 3.6rem;
+    }
+    
+    .newUser__contentTextDescription {
+        font-size: 1.8rem;
+    }
+
+    .newUser__contentImgBubble{
+        width: 55%;
+    }
+    
+    .newUser__contentImgExit {
+        width: 3%;
+        margin: 1.5% 0 0 24%;
+    }
+    
+    .newUser__contentImgDee {
+        margin: 53.75% 0 0 18%;
+        width: 24%;
+    }
+}
+
+@media (max-width: 700px) {
+    .newUser__contentTextHeadline {
+        font-size: 2.4rem;
+    }
+    
+    .newUser__contentTextDescription {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 500px) {
+    /*  */
+    .newUser__contentText {
+        width: 50%;
+        margin-top: 4%;
+    }
+    
+    .newUser__contentTextHeadline {
+        font-size: 2.0rem;
+        line-height: 1;
+    }
+    
+    .newUser__contentTextDescription {
+        font-size: 1.6rem;
+        line-height: 1;
+    }
+
+    .newUser__contentImgBubble{
+        width: 60%;
+    }
+    
+    .newUser__contentImgExit {
+        width: 3%;
+        margin: 1.5% 0 0 26.5%;
+    }
+    
+    .newUser__contentImgDee {
+        margin: 59% 0 0 19%;
+        width: 24%;
     }
 }
 

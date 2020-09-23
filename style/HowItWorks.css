@@ -1,0 +1,106 @@
+html {
+    font-family: 'Roboto Slab', serif;
+    font-size: 62.5%;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5% 4%;
+}
+
+.container{
+    display: flex;
+}
+.app_name{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+
+h1{
+    font-size: 4.8rem;
+    color: #2196F3;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.app_name p{
+    font-size: 1.8rem;
+    text-align: center;
+    color: #0A2738;
+    margin: 0;
+}
+
+.banner a{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #2196F3;
+}
+
+nav{
+    background: #0A2738;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    padding: 1.25% 0;
+}
+
+nav a{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    margin-right: 4%;
+}
+
+p, h2, li {
+    font-size: 2rem;
+    color: black;
+}
+
+h2{
+    font-size: 5rem;
+}
+
+.list p{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.wallpaper{
+    background: white;
+    background-position: center;
+    background-size: cover;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 40rem;
+    padding-top: 10rem;
+}
+
+@media(max-width:700px){
+    html{
+        font-size: 0.5rem;
+    }
+}
+
+@media(max-width:500px){
+    html{
+        font-size: 0.5rem;
+    }
+
+    .banner img, .app_name p, .banner a{
+        display: none;
+    }
+
+    .banner{
+        text-align: center;
+        justify-content: center;
+    }
+    .banner a{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+}

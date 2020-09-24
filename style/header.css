@@ -1,0 +1,65 @@
+.header__white {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5% 4%;
+}
+
+.header__brand {
+    display: flex;
+    text-decoration: none;
+}
+
+.header__brandLogo {
+    margin-right: 3%;
+}
+
+.header__brandText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__brandTextTitle {
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: #2196F3;
+    /* keeps title on one line ⬇️ */
+    white-space: nowrap;
+}
+
+.header__brandTextSlogan {
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #0A2738;
+    line-height: 1.3;
+}
+
+.header__loginButton {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #2196F3;
+}
+
+.header__nav {
+    background: #0A2738;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    padding: 1.25% 0
+}
+
+.header__navLink {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    margin-right: 4%;
+}
+
+.header__navLinkSignUp {
+    text-decoration: underline;
+    font-weight: 700;
+}

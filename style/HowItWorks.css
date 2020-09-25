@@ -1,106 +1,94 @@
-html {
+html{
     font-family: 'Roboto Slab', serif;
-    font-size: 62.5%;
 }
 
-.banner{
-    display: flex;
-    justify-content: space-between;
-    margin: 0.5% 4%;
-}
-
-.container{
-    display: flex;
-}
-.app_name{
-    display: flex;
-    flex-direction: column;
-    padding-left: 2rem;
-}
-
-
-h1{
-    font-size: 4.8rem;
-    color: #2196F3;
-    white-space: nowrap;
-    margin: 0;
-}
-
-.app_name p{
-    font-size: 1.8rem;
-    text-align: center;
-    color: #0A2738;
-    margin: 0;
-}
-
-.banner a{
-    font-size: 1.8rem;
-    font-weight: 400;
-    color: #2196F3;
-}
-
-nav{
-    background: #0A2738;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-    padding: 1.25% 0;
-}
-
-nav a{
-    font-size: 1.5rem;
-    font-weight: bolder;
-    color: white;
-    text-decoration: none;
-    margin-right: 4%;
-}
-
-p, h2, li {
-    font-size: 2rem;
-    color: black;
-}
+/*Top Section*/
 
 h2{
-    font-size: 5rem;
+    color: black;
+    font-size: 7rem;
+    font-weight: bold;
 }
 
-.list p{
-    font-size: 4rem;
+.list h3{
+    font-size: 5rem;
     font-weight: bolder;
 }
 
-.wallpaper{
-    background: white;
-    background-position: center;
-    background-size: cover;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 40rem;
-    padding-top: 10rem;
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
-@media(max-width:700px){
-    html{
-        font-size: 0.5rem;
+.text{
+    width: 40%;
+    padding-right: 5rem;
+}
+.intro img{
+    width: 40%;
+
+}
+.intro p{
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+/*Bottom Section*/
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+ul{
+    text-align: left;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    margin-bottom: 10rem;
+}
+
+@media (max-width: 1500px){
+    h2, .list h3{
+        font-size: 4rem;
     }
 }
 
-@media(max-width:500px){
-    html{
-        font-size: 0.5rem;
+@media (max-width: 800px){
+    .box{
+        flex-direction: column;
     }
-
-    .banner img, .app_name p, .banner a{
-        display: none;
+    .text{
+        width: 90%;
     }
+    .intro img{
+        width: 90%;
+    }
+    .order{
+        margin-left: 4rem;
+    }
+    ul{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
 
-    .banner{
-        text-align: center;
+@media (max-width: 600px){
+    .header {
+        display: flex;
         justify-content: center;
     }
-    .banner a{
-        text-align: center;
-        font-size: 2rem;
+    
+    .header__brandLogo, .header__brandTextSlogan, .header__loginButton, .header__nav {
+        display: none;
     }
-
+    .header__nav a{
+        display: none;
+    }
 }
